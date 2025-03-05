@@ -1,8 +1,4 @@
-<%-- 
-    Document   : adauga_Pacient
-    Created on : Nov 22, 2016, 6:19:27 PM
-    Author     : vali
---%>
+
 
 <%@ page contentType="text/html" pageEncoding="UTF-8" %>
 
