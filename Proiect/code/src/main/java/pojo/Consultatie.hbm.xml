@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="pojo.Consultatie" table="consultatie"
+		catalog="spital" optimistic-lock="version">
+		<id name="idconsultatie" type="java.lang.Integer">
+			<column name="idconsultatie" />
+			<generator class="identity" />
+		</id>
+		<many-to-one name="medici" class="pojo.Medici"
+			fetch="select">
+			<column name="idmedic" />
+		</many-to-one>
+		<many-to-one name="pacienti" class="pojo.Pacienti"
+			fetch="select">
+			<column name="idpacient" />
+		</many-to-one>
+		<property name="dataConsultatie" type="date">
+			<column name="DataConsultatie" length="10" />
+		</property>
+		<property name="diagnostic" type="string">
+			<column name="Diagnostic" length="45" />
+		</property>
+		<property name="medicament" type="string">
+			<column name="Medicament" length="45" />
+		</property>
+	</class>
+</hibernate-mapping>

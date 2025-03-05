@@ -1,0 +1,6 @@
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="spital"/>
+  <table-filter match-name="medici"/>
+  <table-filter match-name="pacienti"/>
+  <table-filter match-name="consultatie"/>
+</hibernate-reverse-engineering>
