@@ -16,10 +16,7 @@ import java.util.Date;
 import pojo.Medici;
 import pojo.Pacienti;
 
-/**
- *
- * @author vali
- */
+
 public class ConsultatieDaoImpl implements ConsultatieDao{
 
     public void adaugaConsultatie(Consultatie consultatie) {
