@@ -13,10 +13,7 @@ import org.hibernate.Transaction;
 import pojo.Pacienti;
 import DAO.PacientiDao;
 
-/**
- *
- * @author vali
- */
+
 public class PacientiDaoImpl implements PacientiDao{
 
     public void adaugaPacienti(Pacienti pacient) {
