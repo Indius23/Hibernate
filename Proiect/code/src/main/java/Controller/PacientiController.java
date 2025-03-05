@@ -13,10 +13,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import pojo.Pacienti;
 import DAOImpl.PacientiDaoImpl;
 
-/**
- *
- * @author vali
- */
+
 public class PacientiController extends HttpServlet {
 
 	Pacienti pacient = new Pacienti();
