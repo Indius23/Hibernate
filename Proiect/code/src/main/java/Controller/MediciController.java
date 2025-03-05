@@ -12,10 +12,6 @@ import jakarta.servlet.http.HttpServletResponse;
 import pojo.Medici;
 import DAOImpl.MediciDaoImpl;
 
-/**
- *
- * @author vali
- */
 public class MediciController extends HttpServlet {
 
 	Medici medic = new Medici();
