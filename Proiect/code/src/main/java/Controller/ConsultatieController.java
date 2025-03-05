@@ -19,10 +19,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import org.hibernate.Session;
 
-/**
- *
- * @author vali
- */
+
 public class ConsultatieController extends HttpServlet {
 
 	Consultatie consultatie = new Consultatie();
