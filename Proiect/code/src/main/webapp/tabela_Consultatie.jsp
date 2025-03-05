@@ -1,8 +1,4 @@
-<%-- 
-    Document   : tabela_Consultatie
-    Created on : Nov 22, 2016, 6:20:29 PM
-    Author     : vali
---%>
+
 
 <%@page import="DAOImpl.MediciDaoImpl"%>
 <%@page import="DAOImpl.PacientiDaoImpl"%>
