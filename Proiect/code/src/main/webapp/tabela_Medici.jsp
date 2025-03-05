@@ -1,8 +1,4 @@
-<%-- 
-    Document   : tabela_Medici
-    Created on : Nov 22, 2016, 6:20:29 PM
-    Author     : vali
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
